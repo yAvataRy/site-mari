@@ -1,9 +1,9 @@
 <template>
   <slot :posts="posts">
-    <section class="not-prose font-mono">
+    <section class="not-prose font-Playfair">
       <div class="column text-gray-400 text-sm">
-        <div>date</div>
-        <div>title</div>
+        <div>data</div>
+        <div>titulo</div>
       </div>
 
       <ul>

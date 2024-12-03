@@ -3,7 +3,7 @@
     <header class="flex justify-between items-start md:items-center mt-5">
       <div class="flex items-center md:space-x-12">
         <div class="hidden md:block">
-          <NuxtLink to="/" class="text-xl font-semibold p-2 hover:bg-gray-200 dark:hover:bg-gray-800">Piotr Jura
+          <NuxtLink to="/" class="text-xl font-semibold p-2 hover:bg-gray-200 dark:hover:bg-gray-800">Mariana Balbino
           </NuxtLink>
         </div>
 
@@ -23,7 +23,7 @@
 
 <script setup>
 useHead({
-  titleTemplate: '%s - Piotr Jura',
+  titleTemplate: '%s - Mariana Balbino',
   link: [
     {
       rel: 'preconnect',
@@ -31,7 +31,7 @@ useHead({
     },
     {
       rel: 'stylesheet',
-      href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap',
+      href: 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap',
       crossorigin: ''
     }
   ]
@@ -40,7 +40,7 @@ useHead({
 
 <style>
 body {
-  font-family: 'Roboto';
+  font-family: "Playfair Display";
 }
 
 body {
